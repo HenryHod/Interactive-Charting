@@ -1,0 +1,8 @@
+dispatch:
+  # Default service serves the typical web resources and all static resources.
+  - url: "indexweb.pages.dev/Data+Apps/Int+Chart"
+    service: default
+dispatch:
+  # Default service serves the typical web resources and all static resources.
+  - url: "indexweb.pages.dev/Data+Apps/Int+Chart"
+    service: default

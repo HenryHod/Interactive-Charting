@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel = "icon" href = "../icon_logo.png">
+        <link href = '../berkbear.css' type = 'text/css' rel = 'stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+        <div >
+        <nav class = 'navigation'>
+            <a id = 'home_link' href = '../index.html'>
+                <img id = 'logo_banner' src = '../transparent_logo_no_words.png' height = 100%>
+            </a>
+            <div class="dropdown">
+                <button id="dropbtn"><p>Research</p></button>
+                <div class="dropdown-content">
+                    <a href="../Research+Publications/Short+Papers.html">Short Papers</a>
+                    <a href="../Research+Publications/Market+Foresight.html">Market Foresight</a>
+                    <a href="../Research+Publications/Editorials.html">Editorials</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button id="dropbtn"><p>Data</p></button>
+                <div class="dropdown-content">
+                    <a href="Int+Chart.html">Interactive Charting</a>
+                    <a href="Market+Dashboard.html">Markets Dashboard</a>
+                    <a href="Index+Glossary.html">Index Glossary</a>
+                </div>
+            </div>
+            <div class = 'nav_link_div'>
+                <a id = 'about_link' href = '../about.html'>About</a>
+            </div>
+            <div class = 'nav_link_div'>
+                <a id = 'contact_link' href = '../contact.html'>Contact</a>
+            </div>
+        </nav>
+        <div id = "content_background">
+            <div id = "home_mission_container" class="dev">
+                <div id = "home_mission" class="dev">
+                  <h2>This part of our website is currently under development.</h2>
+                  <p>The Bureau of Economic & Asset Research is still working on this part of our website, check back soon for new content and data applications. Please navigate back to our main page to view our other content.</p>
+                </div>
+                <div id = "home_mission_background" class=""dev></div>
+                </div>
+        </div>
+        <footer class = "footer">
+            <div id = "disclosure_container">
+            <p>The Bureau of Economic & Asset Research at Berkeley does not provide tax, legal or accounting advice.
+              Information presented is not intended to provide, and should not be relied on for tax, legal and accounting advice. Past performance does not gaurentee future returns.
+              You should consult your own tax, legal and accounting advisors before engaging in any financial transaction.</p>
+            </div>
+            <img id = "footer_logo" src = "../logo_transparent.png" >
+          </footer>
+          <script type="text/javascript" language="javascript">        
+            var el = document.getElementById("content_background")
+            var nav = document.getElementsByClassName("navigation")[0]
+            var foot = document.getElementsByClassName("footer")[0]
+            el.style.minHeight = document.body.clientHeight - nav.clientHeight - foot.clientHeight
+            </script>
+    </body>
+</html>
